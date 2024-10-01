@@ -4,7 +4,7 @@ import numpy as np
 import plotly.express as px
 st.set_page_config(layout="wide")
 
-full_df = pd.read_csv('full_data.csv')
+full_df = pd.read_csv('\\full_data.csv')
 st.markdown(
     "<h1 style='text-align: center; color: green;'> Products Insights</h1>", unsafe_allow_html=True
 )
