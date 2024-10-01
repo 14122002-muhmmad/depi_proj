@@ -53,7 +53,7 @@ def about_us():
         st.markdown('<div class="team-member">', unsafe_allow_html=True)
         st.image("mostafa.jpg", width=150, caption="Mostafa Amin", use_column_width=False)
         st.markdown("<h5 style='color:#1E90FF;'>Mostafa Amin</h5>", unsafe_allow_html=True)  # Uniform color
-        st.write("Power BI Specialist and Data Analyst")
+        st.write("Power BI Specialist & Data Analyst")
         if st.button("Learn More about Mostafa"):
             st.write("Mostafa specializes in crafting interactive dashboards using Power BI, delivering compelling visualizations for data insights.")
         st.markdown('</div>', unsafe_allow_html=True)
@@ -67,7 +67,7 @@ def about_us():
         st.markdown('<div class="team-member">', unsafe_allow_html=True)
         st.image("mazen2.jpg", width=150, caption="Mazen Maher", use_column_width=False)
         st.markdown("<h5 style='color:#1E90FF;'>Mazen Maher</h5>", unsafe_allow_html=True)  # Uniform color
-        st.write("Power BI Specialist and Data Analyst")
+        st.write("Power BI Specialist & Data Analyst")
         if st.button("Learn More about Mazen"):
             st.write("Mazen is responsible for data visualization, contributing through detailed dashboards using Power BI.")
         st.markdown('</div>', unsafe_allow_html=True)
