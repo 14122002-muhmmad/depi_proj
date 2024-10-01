@@ -1,6 +1,7 @@
 import streamlit as st
 
 # Function to set a background image
+st.set_page_config(layout="wide")
 def set_background():
     st.markdown(
         """
