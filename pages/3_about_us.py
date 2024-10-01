@@ -52,9 +52,9 @@ def about_us():
         st.markdown('<div class="team-member">', unsafe_allow_html=True)
         st.image("mostafa.jpg", width=150, caption="Mostafa Amin", use_column_width=False)
         st.markdown("<h5 style='color:#1E90FF;'>Mostafa Amin</h5>", unsafe_allow_html=True)  # Uniform color
-        st.write("Data Wrangling & Visualization Specialist")
+        st.write("Power BI Specialist")
         if st.button("Learn More about Mostafa"):
-            st.write("Mostafa specializes in data wrangling and visualization, ensuring data quality and crafting compelling visual stories through interactive dashboards.")
+            st.write("Mostafa specializes in crafting interactive dashboards using Power BI, delivering compelling visualizations for data insights.")
         st.markdown('</div>', unsafe_allow_html=True)
 
     # Empty space in the second column
@@ -66,9 +66,9 @@ def about_us():
         st.markdown('<div class="team-member">', unsafe_allow_html=True)
         st.image("mazen2.jpg", width=150, caption="Mazen Maher", use_column_width=False)
         st.markdown("<h5 style='color:#1E90FF;'>Mazen Maher</h5>", unsafe_allow_html=True)  # Uniform color
-        st.write("Data Pipeline Engineer")
+        st.write("Power BI Specialist")
         if st.button("Learn More about Mazen"):
-            st.write("Mazen is responsible for data pipelines and infrastructure, ensuring the smooth flow of data from sources to final analysis.")
+            st.write("Mazen is responsible for data visualization, contributing through detailed dashboards using Power BI.")
         st.markdown('</div>', unsafe_allow_html=True)
 
     # Add space between rows
@@ -84,7 +84,7 @@ def about_us():
         st.markdown("<h5 style='color:#1E90FF;'>Muhammad Jamal</h5>", unsafe_allow_html=True)  # Uniform color
         st.write("Data Scientist & Data Analyst")
         if st.button("Learn More about Muhammad"):
-            st.write("Muhammad has a deep passion for data analysis and machine learning. His role in the project involves building predictive models, analyzing data, and creating insightful visualizations.")
+            st.write("Muhammad was responsible for data cleaning and visualization using Python, as well as performing in-depth data analysis.")
         st.markdown('</div>', unsafe_allow_html=True)
 
     # Empty space in the second column
@@ -96,9 +96,9 @@ def about_us():
         st.markdown('<div class="team-member">', unsafe_allow_html=True)
         st.image("amr.jpg", width=150, caption="Amr Mohammed", use_column_width=False)
         st.markdown("<h5 style='color:#1E90FF;'>Amr Mohammed</h5>", unsafe_allow_html=True)  # Uniform color
-        st.write("Machine Learning Engineer")
+        st.write("Data Scientist & Machine Learning Engineer")
         if st.button("Learn More about Amr"):
-            st.write("Amr designs and deploys machine learning models, focusing on optimizing algorithms to gain insights from complex datasets.")
+            st.write("Amr was responsible for data cleaning and visualization using Python, focusing on preparing data for analysis.")
         st.markdown('</div>', unsafe_allow_html=True)
 
     # Mission and Vision sections with backgrounds
